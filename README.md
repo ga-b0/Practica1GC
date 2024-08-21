@@ -3,8 +3,6 @@
 
 El proyecto consta de una simulación de un login usando JavaScript Vanilla para el lado del FrontEnd y PHP para simular una respuesta por parte del servidor.
 
-Para los estilos se utilizó [Pico CSS](https://picocss.com/) 
-
 ## Instalación
 
 Clonar el repositorio dentro de la carpeta `htdocs` del directorio principal de `Xampp`
