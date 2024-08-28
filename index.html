@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Practica1GC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practica1GC</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="contenedor">
+      <div class="row align-items-center h-100">
+        <div class="col"></div>
+        <div class="col">
+          <div class="align-items-center">
+            <p>Gabriel Alexander Calderón Villeda</p>
+            <form name="frm_login" action="core/process.php" id="frm_login">
+              <table>
+                <thead>
+                  <tr>
+                    <th class="parrafo_centrado">Inicio de Sesión</th>
+                  </tr>
+                  <tr>
+                    <th>&nbsp;</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="form-row">
+                        <div class="form-row col-md-6">
+                          <label>
+                            Usuario:
+                            <input class="form-control" maxlength="10" required aria-describedby="text email user">
+                            <small class="form-text text_muted">El usuario es obligatorio</small>
+                          </label>
+                        </div>
+                        <div class="form-row col-md-6">
+                          <label>
+                            Contraseña:
+                            <input class="form-control" maxlength="8" type="password" required aria-describedby="text password user">
+                            <small class="form-text text_muted">La contraseña es obligatoria</small>
+                          </label>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
