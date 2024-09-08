@@ -10,7 +10,7 @@ $token = "";
 
 if (in_array($_SERVER['HTTP_HOST'], $hosts_aceptados)) {
 
-    if ($_SERVER["REQUEST METHOD"] == $metodo_aceptado) {
+    if ($_SERVER["REQUEST_METHOD"] == $metodo_aceptado) {
 
         if (isset($txt_usuario) && !empty($txt_usuario)) {
 
